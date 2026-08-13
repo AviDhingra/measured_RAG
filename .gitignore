@@ -3,3 +3,4 @@ aiarc
 __pycache__/
 .env
 *.pyc
+src/corpus/
