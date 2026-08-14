@@ -17,10 +17,10 @@ class IncidentChunk(BaseModel):
 
 
 RAW_URL = "https://raw.githubusercontent.com/h5i-dev/awesome-ai-agent-incidents/main/README.md"
-RAW_DIR = Path("corpus/incidents/raw")
-DOC_PATH = Path("corpus/incidents/raw/incidents.md")
-CHUNKS_PATH = Path("corpus/incidents/chunks.jsonl")
-META_PATH = Path("corpus/incidents/raw/incidents.meta.json")
+RAW_DIR = Path("../corpus/incidents/raw")
+DOC_PATH = Path("../corpus/incidents/raw/incidents.md")
+CHUNKS_PATH = Path("../corpus/incidents/chunks.jsonl")
+META_PATH = Path("../corpus/incidents/raw/incidents.meta.json")
 CHUNK_SIZE = 800
 OVERLAP = 150
 
