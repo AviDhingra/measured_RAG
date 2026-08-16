@@ -1,0 +1,6 @@
+anthropic
+qdrant-client
+ollama
+pydantic
+requests
+python-dotenv

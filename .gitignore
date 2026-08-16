@@ -3,4 +3,5 @@ aiarc
 __pycache__/
 .env
 *.pyc
-src/corpus/
+/corpus/
+*report.md
